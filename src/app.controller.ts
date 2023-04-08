@@ -12,8 +12,6 @@ export class AppController {
 
   @Get('/helloWorld')
   sendHelloWorld() {
-    console.log('sheesh doing this ');
-    console.log('hehahahaha professional my ass ka');
     return this.appService.writeHelloWorld();
   }
 }
