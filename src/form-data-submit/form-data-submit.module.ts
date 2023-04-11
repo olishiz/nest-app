@@ -4,6 +4,6 @@ import { FormDataSubmitController } from './form-data-submit.controller';
 
 @Module({
   controllers: [FormDataSubmitController],
-  providers: [FormDataSubmitService]
+  providers: [FormDataSubmitService],
 })
 export class FormDataSubmitModule {}
